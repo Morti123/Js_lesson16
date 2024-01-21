@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+}
+.button{
+    width: 3vw;
+    height: 2vw;
+    border: none;
+    background-color: steelblue;
+    color: white;
+    border-radius: 5%;
+    position: absolute;
+    left: 95vw;
+    top: 1vw;
+}
+.sett{
+    width: 20vw;
+    height: 10vw;
+    border: 1px solid black;
+}
+.menuDiv{
+    width: 20vw;
+    height: 10vw;
+    border: gray solid 1px;
+    border-radius: 10px;
+    position: absolute;
+    left: 30vw;
+    top: -30vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .trans{
+      transition-duration: 3s;
+      transform: translate(0px,40vw);
+  }
+  .confirm{
+    border:0;
+    background-color: rgb(28, 74, 201);
+    color: white;
+    border-radius: 10px;
+    width: 4vw;
+    height: 2vw;
+    margin-left: 15vw;
+  }
+  .green{
+      background-color: magenta;
+  }
+  .hide{
+      display: none;
+  }
